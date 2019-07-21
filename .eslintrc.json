@@ -1,0 +1,13 @@
+// Referneces:
+// https://github.com/standard/eslint-config-standard-react
+{
+  "extends": ["standard", "standard-react"],
+
+  // overrides
+  "rules": {
+    "semi": ["error", "always"],
+    "no-unused-vars": ["warn", {"argsIgnorePattern": "^_", "varsIgnorePattern": "^_"}], // disallow declaration of variables that are not used in the code (recommended)
+    "space-before-function-paren": [0, {"anonymous": "always", "named": "never"}], // require or disallow a space before function opening parenthesis (fixable)
+    "jsx-quotes": [2, "prefer-double"] // specify whether double or single quotes should be used in JSX attributes (fixable)
+  }
+}

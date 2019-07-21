@@ -1,0 +1,8 @@
+/* CSS resets for the application */
+@import url("resets.css");
+/* common application side styles - these can be overridden in component css below*/
+@import url("../src/components/app.css");
+/* header styles */
+@import url("../src/components/header/header.css");
+/* more imports here */
+
