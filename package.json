@@ -1,7 +1,7 @@
 {
   "name": "smart-center-dashboard",
   "version": "1.0.0",
-  "description": "Heat map chart writte in React",
+  "description": "Heatmap chart written in React",
   "main": "index.js",
   "repository": "",
   "private": true,
