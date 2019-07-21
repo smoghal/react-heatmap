@@ -14,6 +14,14 @@ Limitations:
 
 ## Usage
 
+Refer to `component/app.js` on basic usage.
+
+## Heatmap API
+
+TBD
+
+## Setup Instructions
+
 - Update `src/config_dev.js` with your canvas dimensions.
 - Install `node_modules` dependencies using `yarn`
   - `yarn install`
@@ -23,10 +31,6 @@ Limitations:
 - In order to distrubute the application (S3 for example):
   - `yarn build`
   - copy `build.js`, `style/*`, `image/*`, `index.html` to S3 static website
-
-## Heatmap API
-
-TBD
 
 ## License
 
